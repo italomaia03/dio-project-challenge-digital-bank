@@ -1,4 +1,4 @@
-# dio-code-challenge-digital-bank
+# dio-project-challenge-digital-bank
 Develop a basic application that simulates a digital bank.
 
 ## Description
