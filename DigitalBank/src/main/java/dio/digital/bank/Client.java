@@ -2,12 +2,15 @@ package dio.digital.bank;
 
 public class Client {
     private String name;
+    private final String socialSecurityNumber; //CPF;
+
+    public Client(String name, String socialSecurityNumber) {
+        this.name = name;
+        this.socialSecurityNumber = socialSecurityNumber;
+    }
 
     public String getName() {
-        return name;
+        return this.name;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    public String getSocialSecurityNumber(){return this.socialSecurityNumber;}
 }
