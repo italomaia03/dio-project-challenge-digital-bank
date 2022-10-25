@@ -1,6 +1,4 @@
-package dio.digital.bank;
-
-import java.time.LocalDate;
+package dio.digital.bank.models;
 
 public class CheckingAccount extends Account{
     public CheckingAccount(Client client) {

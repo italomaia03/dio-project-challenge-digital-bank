@@ -1,4 +1,4 @@
-package dio.digital.bank;
+package dio.digital.bank.models;
 
 public class Client {
     private String name;

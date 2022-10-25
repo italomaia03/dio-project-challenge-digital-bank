@@ -1,4 +1,4 @@
-package dio.digital.bank;
+package dio.digital.bank.models;
 
 public class Account {
 
@@ -7,6 +7,7 @@ public class Account {
     protected double balance;
     protected int accNumber, agency;
     protected Client client;
+    protected Bank bank;
 
     public Account(Client client){
         this.client = client;
@@ -36,8 +37,8 @@ public class Account {
 
     public void printStatement(){
         System.out.println(String.format("Client: %s",this.client.getName()));
-        System.out.println(String.format("Agency: $d",this.agency));
-        System.out.println(String.format("Account Number: $%d",this.accNumber));
+        System.out.println(String.format("Agency: %d",this.agency));
+        System.out.println(String.format("Account Number: %d",this.accNumber));
         System.out.println(String.format("Balance: $%.2f",this.balance));
     }
 

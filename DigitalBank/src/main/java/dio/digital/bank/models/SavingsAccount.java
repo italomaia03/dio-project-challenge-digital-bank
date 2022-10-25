@@ -1,4 +1,4 @@
-package dio.digital.bank;
+package dio.digital.bank.models;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
